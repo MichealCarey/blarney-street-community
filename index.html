@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blarney Street Community Association - The Rock Community Centre</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Bubblegum+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2 class="logo-text">The Rock Community Centre</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#team" class="nav-link">Meet the Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#booking" class="nav-link">Book Hall</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#shop" class="nav-link">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to The Rock Community Centre</h1>
+                <p class="hero-subtitle">Celebrating 45 Years of Community Spirit in Blarney Street, Cork</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary">Book the Hall</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <i class="fas fa-home"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Tabs Section -->
+    <section class="quick-tabs">
+        <div class="container">
+            <div class="tabs-grid">
+                <div class="tab-card" onclick="scrollToSection('faq')">
+                    <div class="tab-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>FAQ's</h3>
+                    <p>Find answers to common questions</p>
+                </div>
+                <div class="tab-card" onclick="scrollToSection('directions')">
+                    <div class="tab-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Where to Find Us</h3>
+                    <p>Get directions to our centre</p>
+                </div>
+                <div class="tab-card" onclick="scrollToSection('booking')">
+                    <div class="tab-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>How to Book</h3>
+                    <p>Book the hall for your event</p>
+                </div>
+                <div class="tab-card" onclick="scrollToSection('contact')">
+                    <div class="tab-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Who to Contact</h3>
+                    <p>Get in touch with our team</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About The Rock Community Centre</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>The Rock Community Centre, formerly St. Mary's of the Rock National School, has been serving the Blarney Street community for over 45 years. Closed as a school in 1978, this historic building was officially opened as a community centre on 20th May 1988 by Aid. Toddy O'Sullivan, Lord Mayor.</p>
+                    <p>Our centre is the heart of the Blarney Street community, providing a welcoming space for people of all ages to come together, learn, socialize, and celebrate. We offer a wide range of activities and services designed to strengthen community bonds and enrich the lives of our residents.</p>
+                    <p>From our popular Men's Shed for retired gentlemen to MMA classes for fitness enthusiasts, from hall rentals for special occasions to our community events, The Rock Community Centre continues to be a vital hub of activity and connection in Cork City.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>45+</h3>
+                            <p>Years of Service</p>
+                        </div>
+                        <div class="stat">
+                            <h3>80+</h3>
+                            <p>Community Members</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Events Per Year</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="centre-image">
+                        <i class="fas fa-building"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services & Activities</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-fist-raised"></i>
+                    </div>
+                    <h3>MMA Classes</h3>
+                    <p>Join our dynamic MMA classes suitable for all skill levels. Learn self-defense, improve fitness, and build confidence in a supportive environment. Classes run multiple times per week with experienced instructors.</p>
+                    <a href="#contact" class="btn btn-outline">Enquire Now</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Men's Shed</h3>
+                    <p>A welcoming space for retired men to socialize, share skills, and stay active. Activities include wood turning, watching matches together, sharing fond memories, and building lasting friendships. Open weekdays 10am-4pm.</p>
+                    <a href="#contact" class="btn btn-outline">Join Us</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Hall Rental</h3>
+                    <p>Perfect venue for parties, meetings, workshops, and community events. Our spacious hall accommodates up to 100 people with kitchen facilities, parking, and flexible booking options available.</p>
+                    <a href="#booking" class="btn btn-outline">Book Now</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Community Events</h3>
+                    <p>Regular community gatherings, seasonal celebrations, fundraisers, and social events that bring our neighborhood together. Check our calendar for upcoming events and join in the fun!</p>
+                    <a href="#contact" class="btn btn-outline">View Calendar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet the Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Tom Coleman</h3>
+                    <p class="member-role">Chairman</p>
+                    <p class="member-bio">Tom Coleman has been the heart and soul of The Rock Community Centre for over 45 years. His dedication to serving the Blarney Street community is unmatched, having witnessed the transformation of the former school into the vibrant community hub it is today. Tom's leadership has guided the centre through decades of change while maintaining its core mission of bringing people together. His warm personality and deep knowledge of the area's history make him a beloved figure in the community. When not overseeing centre operations, Tom can often be found sharing stories with visitors or lending a helping hand to anyone in need.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Community Volunteers</h3>
+                    <p class="member-role">Support Team</p>
+                    <p class="member-bio">Our dedicated team of volunteers work tirelessly to ensure The Rock Community Centre runs smoothly. From organizing events to maintaining the building, their commitment keeps our community spirit alive and thriving.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2 class="section-title">Book the Hall</h2>
+            <div class="booking-container">
+                <div class="booking-info">
+                    <h3>Perfect for Your Event</h3>
+                    <p>Our spacious hall is ideal for parties, meetings, workshops, and community gatherings. With kitchen facilities, parking, and flexible booking options, we can accommodate your needs.</p>
+                    <div class="booking-features">
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <span>Capacity: Up to 100 people</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-utensils"></i>
+                            <span>Kitchen facilities available</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-parking"></i>
+                            <span>Free parking on site</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Flexible booking times</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form">
+                    <form id="bookingForm" class="form">
+                        <div class="form-group">
+                            <label for="bookingName">Full Name *</label>
+                            <input type="text" id="bookingName" name="bookingName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingEmail">Email Address *</label>
+                            <input type="email" id="bookingEmail" name="bookingEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingPhone">Phone Number *</label>
+                            <input type="tel" id="bookingPhone" name="bookingPhone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingDate">Preferred Date *</label>
+                            <input type="date" id="bookingDate" name="bookingDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingTime">Preferred Time *</label>
+                            <select id="bookingTime" name="bookingTime" required>
+                                <option value="">Select time</option>
+                                <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+                                <option value="afternoon">Afternoon (1:00 PM - 5:00 PM)</option>
+                                <option value="evening">Evening (6:00 PM - 10:00 PM)</option>
+                                <option value="fullday">Full Day (9:00 AM - 10:00 PM)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingPurpose">Purpose of Booking *</label>
+                            <select id="bookingPurpose" name="bookingPurpose" required>
+                                <option value="">Select purpose</option>
+                                <option value="party">Birthday Party</option>
+                                <option value="meeting">Community Meeting</option>
+                                <option value="workshop">Workshop/Class</option>
+                                <option value="celebration">Celebration</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingGuests">Number of Guests</label>
+                            <input type="number" id="bookingGuests" name="bookingGuests" min="1" max="100">
+                        </div>
+                        <div class="form-group">
+                            <label for="bookingMessage">Additional Requirements</label>
+                            <textarea id="bookingMessage" name="bookingMessage" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Booking Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <div class="container">
+            <h2 class="section-title">Community Shop</h2>
+            <div class="shop-content">
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <div class="item-image">
+                            <i class="fas fa-compact-disc"></i>
+                        </div>
+                        <div class="item-details">
+                            <h3>"Celebrating 45 Years of Blarney Street Community Centre" CD</h3>
+                            <p>A special commemorative CD featuring local music, stories, and memories from our 45 years of community service.</p>
+                            <div class="item-price">€20.00</div>
+                            <button class="btn btn-primary add-to-cart" data-item="cd" data-price="20">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <div class="item-image">
+                            <i class="fas fa-usb"></i>
+                        </div>
+                        <div class="item-details">
+                            <h3>Short Film USB Stick</h3>
+                            <p>Digital copy of our community short film showcasing the history and people of Blarney Street Community Centre.</p>
+                            <div class="item-price">€15.00</div>
+                            <button class="btn btn-primary add-to-cart" data-item="usb" data-price="15">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-section">
+                    <h3>Shopping Cart</h3>
+                    <div id="cart-items" class="cart-items">
+                        <p class="empty-cart">Your cart is empty</p>
+                    </div>
+                    <div class="cart-total">
+                        <strong>Total: €<span id="cart-total">0.00</span></strong>
+                    </div>
+                    <button id="checkout-btn" class="btn btn-secondary" disabled>Proceed to Checkout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What are your opening hours?</h3>
+                    <p>The centre is open Monday to Friday 9:00 AM - 10:00 PM, and weekends 10:00 AM - 8:00 PM for pre-booked events.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I book the hall?</h3>
+                    <p>You can book the hall by filling out our online booking form, calling us, or visiting the centre in person. We recommend booking at least 2 weeks in advance.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What facilities are available?</h3>
+                    <p>We have a main hall, kitchen facilities, parking, accessible entrance, and audio-visual equipment available for hire.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much does it cost to rent the hall?</h3>
+                    <p>Hall rental rates vary depending on the time of day and duration. Please contact us for current pricing information.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I join the Men's Shed?</h3>
+                    <p>Yes! The Men's Shed is open to all retired men in the community. Just drop by during opening hours or contact us for more information.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer MMA classes for beginners?</h3>
+                    <p>Absolutely! Our MMA classes are suitable for all skill levels, including complete beginners. Our instructors will help you progress at your own pace.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Directions Section -->
+    <section id="directions" class="directions">
+        <div class="container">
+            <h2 class="section-title">How to Find Us</h2>
+            <div class="directions-content">
+                <div class="directions-info">
+                    <div class="address-card">
+                        <h3>Address</h3>
+                        <p><strong>The Rock Community Centre</strong><br>
+                        The Rock Steps, T23 WA22<br>
+                        Blarney Street, Cork<br>
+                        Cork City T23 WA22</p>
+                    </div>
+                    <div class="transport-info">
+                        <h3>Getting Here</h3>
+                        <div class="transport-item">
+                            <i class="fas fa-bus"></i>
+                            <span>Bus routes 205, 208, 220 stop nearby</span>
+                        </div>
+                        <div class="transport-item">
+                            <i class="fas fa-car"></i>
+                            <span>Free parking available on site</span>
+                        </div>
+                        <div class="transport-item">
+                            <i class="fas fa-walking"></i>
+                            <span>10-minute walk from Cork city centre</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map"></i>
+                        <p>Interactive map coming soon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Address</h3>
+                            <p>The Rock Community Centre<br>
+                            The Rock Steps, T23 WA22<br>
+                            Blarney Street, Cork<br>
+                            Cork City T23 WA22</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+353214670600">+353 21 467 0600</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@rockcommunitycentre.ie">info@rockcommunitycentre.ie</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Opening Hours</h3>
+                            <p>Monday - Friday: 9:00 AM - 10:00 PM<br>
+                            Saturday - Sunday: 10:00 AM - 8:00 PM<br>
+                            (For pre-booked events)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" class="form">
+                        <div class="form-group">
+                            <label for="contactName">Name *</label>
+                            <input type="text" id="contactName" name="contactName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email *</label>
+                            <input type="email" id="contactEmail" name="contactEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactPhone">Phone</label>
+                            <input type="tel" id="contactPhone" name="contactPhone">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject">Subject</label>
+                            <select id="contactSubject" name="contactSubject">
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="booking">Hall Booking</option>
+                                <option value="mens-shed">Men's Shed</option>
+                                <option value="mma">MMA Classes</option>
+                                <option value="events">Community Events</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Message *</label>
+                            <textarea id="contactMessage" name="contactMessage" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>The Rock Community Centre</h3>
+                    <p>Celebrating 45 years of community spirit in Blarney Street, Cork. Formerly St. Mary's of the Rock National School, now serving as the heart of our community.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#booking">Book Hall</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Hall Rental</li>
+                        <li>MMA Classes</li>
+                        <li>Men's Shed</li>
+                        <li>Community Events</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 The Rock Community Centre. All rights reserved.</p>
+                <p>Celebrating 45 Years of Community Service (1978-2023)</p>
+                <p style="font-size: 0.7rem; opacity: 0.6; margin-top: 0.5rem;">Created by CareySites Co</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Checkout Modal -->
+    <div id="checkoutModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Checkout</h2>
+            <div id="checkout-items"></div>
+            <div class="checkout-total">
+                <strong>Total: €<span id="checkout-total">0.00</span></strong>
+            </div>
+            <form id="checkoutForm" class="form">
+                <div class="form-group">
+                    <label for="checkoutName">Full Name *</label>
+                    <input type="text" id="checkoutName" name="checkoutName" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkoutEmail">Email *</label>
+                    <input type="email" id="checkoutEmail" name="checkoutEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkoutPhone">Phone *</label>
+                    <input type="tel" id="checkoutPhone" name="checkoutPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkoutAddress">Address *</label>
+                    <textarea id="checkoutAddress" name="checkoutAddress" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Complete Purchase</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="300" height="120">
+  <defs>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E8B57;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- IRE Text -->
+  <text x="150" y="25" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="url(#greenGradient)" filter="drop-shadow(2px 2px 2px rgba(0,0,0,0.3))">IRE</text>
+  
+  <!-- Globe -->
+  <circle cx="150" cy="70" r="25" fill="#90EE90" stroke="#2E8B57" stroke-width="2"/>
+  
+  <!-- Globe Grid Lines -->
+  <line x1="125" y1="70" x2="175" y2="70" stroke="white" stroke-width="1" opacity="0.8"/>
+  <line x1="150" y1="45" x2="150" y2="95" stroke="white" stroke-width="1" opacity="0.8"/>
+  <path d="M 125 70 Q 150 45 175 70" stroke="white" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M 125 70 Q 150 95 175 70" stroke="white" stroke-width="1" fill="none" opacity="0.6"/>
+  
+  <!-- Europe Silhouette -->
+  <path d="M 140 60 Q 145 55 150 58 Q 155 55 160 60 Q 165 65 160 70 Q 155 75 150 72 Q 145 75 140 70 Z" fill="#1a1a1a"/>
+  
+  <!-- RECRUITMENT Bar -->
+  <rect x="100" y="100" width="100" height="12" fill="#2E8B57" rx="2"/>
+  <text x="150" y="109" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="white">RECRUITMENT</text>
+  
+  <!-- SERVICES Bar -->
+  <rect x="100" y="112" width="100" height="8" fill="#1a1a1a" rx="2"/>
+  <text x="150" y="118" font-family="Arial, sans-serif" font-size="6" font-weight="bold" text-anchor="middle" fill="white">SERVICES</text>
+</svg>
